@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       borderSide: BorderSide(
         color: const Color(0xFFeceff1), width: 2));
     const linkTextStyle = TextStyle(
-      fontSize: 18,
+      fontSize: 16,
       fontWeight: FontWeight.bold,
       color: Color(0xFF0079D0),
     );
