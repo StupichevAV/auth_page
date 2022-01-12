@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       borderSide: BorderSide(
         color: const Color(0xFFeceff1), width: 2));
     const linkTextStyle = TextStyle(
-      fontSize: 16,
+      fontSize: 18,
       fontWeight: FontWeight.bold,
       color: Color(0xFF0079D0),
     );
@@ -72,7 +72,7 @@ class MyApp extends StatelessWidget {
               InkWell(child: const Text('Регистрация', style: linkTextStyle,),
                   onTap: () {}),
               SizedBox(height: 20,),
-              InkWell(child: const Text('Забыли пароль', style: linkTextStyle,),
+              InkWell(child: const Text('Забыли пароль?', style: linkTextStyle,),
                   onTap: () {}),
 
             ],),
